@@ -1,59 +1,59 @@
 # Leistungsnachweise
 
-Leistungsnachweise werden verwendet, um Genehmigung für gebuchte Zeiten anzufordern.
+Leistungsnachweise werden verwendet, um Genehmigungen für gebuchte Zeiten anzufordern.
 Ein Leistungsnachweis ist immer eine Sammlung von gebuchten Zeiten (TimeRecords) in einem bestimmten Zeitraum,
 bezogen auf mindestens ein Projekt und eine einzelne Person.
 
 ## Zeiten genehmigen lassen (TimeRecords)
 
 Dieses Kapitel behandelt das Genehmigungsverfahren für Zeiten, die Sie direkt auf ZEIT.IO erfasst haben,
-bzw. nach ZEIT.IO importiert haben. Das betrifft alle Zeitbuchungen (TimeRecords) die im Hauptmenü unter "Zeiten"
-zu finden sind. Dies beinhaltet z.B. auch Zeitbuchungen (Time Records), die über den JIRA Tempo CSV Import und den
+bzw. nach ZEIT.IO importiert haben. Das betrifft alle Zeitbuchungen, die im Hauptmenü unter "Zeiten"
+zu finden sind, und beinhaltet z.B. auch Time Records, die über den JIRA Tempo CSV Import und den
 JIRA Clockwork CSV Import importiert wurden.
 
 Wenn Sie im Hauptmenü auf "Zeiten" klicken, dann sehen Sie im Tab "Liste" Ihre letzten Buchungen.
-Buchungen, die bereits genehmigt wurden, sind mit einem grünen Haken markiert. Buchungen die noch
-genehmigt werden müssen, sind mit einem gelben Warnsymbol versehen. Wie hier zu sehen, in der
-vorletzten Spalte der Tabelle, rechts vom Betrag:
+Buchungen, die bereits genehmigt wurden, sind mit einem grünen Haken markiert. Buchungen, die noch
+genehmigt werden müssen, sind mit einem gelben Warnsymbol versehen. Wie hier in der vorletzten Spalte der
+Tabelle rechts vom Betrag zu sehen:
 
 ![Gebuchte Zeiten](../img/context-freelance/approval-01-de.png)
 
 Solange die Buchungen noch nicht genehmigt sind, können Sie sie noch bearbeiten und löschen.
 Wenn Sie Ihre Zeiterfassung für einen bestimmten Zeitraum abgeschlossen haben, dann können Sie
-die Buchungen zur Genehmigung einreichen. Dafür klicken Sie ganz einfach auf den grünen Button
-"Genehmigung anfordern", rechts oben.
+die Buchungen zur Genehmigung einreichen. Dafür klicken Sie ganz einfach rechts oben auf den
+grünen Button "Genehmigung anfordern".
 
 ![Genehmigung anfordern](../img/context-freelance/approval-02-de.png)
 
-Sie können Genehmigung für ein einzelnes Projekt anfordern, oder für mehrere Projekte gleichzeitig.
-In den meisten Fällen brauchen Sie die erste Option. Sofern Ihr Ansprechpartner im Projekt nicht
-etwas anderes sagt, sollten Sie immer die erste Option wählen.
+Sie können die Genehmigung für ein einzelnes Projekt anfordern, oder für mehrere Projekte gleichzeitig.
+Falls Sie mehrere Projekte haben, sollten Sie immer die erste Option wählen, sofern Ihr Ansprechpartner 
+im Projekt keine andere Vorgabe macht.
 
 Auf der nächsten Seite können Sie einen Zeitraum und ein Projekt auswählen, für das Sie die Genehmigung
 anfordern wollen. Standardmäßig ist der Vormonat vorausgewählt. Sie können aber über die "convenient" Buttons
 auch mit einem Klick den aktuellen Monat setzen. In der untenstehenden Tabelle werden dann alle Buchungen
-angezeigt, aus dem gewählten Zeitraum und Projekt, die noch nicht genehmigt sind.
+aus dem gewählten Zeitraum und Projekt angezeigt, die noch nicht genehmigt sind.
 
 ![Genehmigung anfordern](../img/context-freelance/approval-03-de.png)
 
-Ganz unten auf der Seite, können Sie optional noch einen Kommentar eingeben, z.B. um den Genehmiger auf
-etwas hinzuweisen. Mit dem Klick auf "Genehmigung beantragen" wird die Genehmigung dann beantragt. Im Hintergrund
-wird dadurch ein neuer Leistungsnachweis erstellt, welcher die Zeitbuchungen (TimeRecords) aus dem
+Ganz unten auf der Seite können Sie optional noch einen Kommentar eingeben, z.B. um den Genehmiger auf
+etwas hinzuweisen. Mit dem Klick auf "Genehmigung beantragen" geht eine entsprechende E-Mail an den Genehmiger
+raus. Im Hintergrund wird dadurch ein neuer Leistungsnachweis erstellt, welcher die Zeitbuchungen aus dem
 gewählten Zeitraum und Projekt enthält. Wenn alles geklappt hat, dann sehen Sie eine Bestätigungsmeldung
 und den offenen Leistungsnachweis.
 
 ![Genehmigung anfordern](../img/context-freelance/approval-04-de.png)
 
-Die Personen die im Projekt als Genehmiger für Zeitbuchungen hinterlegt sind, werden per E-Mail über den neuen
+Die Personen, die im Projekt als Genehmiger für Zeitbuchungen hinterlegt sind, werden per E-Mail über den neuen
 Leistungsnachweis informiert und können es dann kommentieren, genehmigen oder ablehnen. Sie werden dann per
 E-Mail benachrichtigt, sobald der Leistungsnachweis bearbeitet wurde.
 
-Solange die Zeitbuchungen (TimeRecords) sich auf dem zu genehmigenden Leistungsnachweis befinden, können diese
-nicht bearbeitet oder gelöscht werden. Wenn der Leistungsnachweis abgelehnt wird, dann werden die
-Zeitbuchungen (TimeRecords) wieder freigegeben zur Bearbeitung, damit Sie die Möglichkeit haben,
-die Zeitbuchungen (TimeRecords) zu korrigieren und erneut zur Genehmigung einzureichen.
+Solange die Zeitbuchungen sich auf dem zu genehmigenden Leistungsnachweis befinden, können diese
+nicht bearbeitet oder gelöscht werden. Wenn der Leistungsnachweis abgelehnt wird, dann werden sie
+wieder zur Bearbeitung freigegeben, damit Sie die Möglichkeit haben, sie zu korrigieren und erneut
+zur Genehmigung einzureichen.
 
-Wenn der Leistungsnachweis genehmigt wurde, bleiben die Zeitbuchungen (Time Records), die sich darauf befinden,
+Wenn der Leistungsnachweis genehmigt wurde, bleiben die Zeitbuchungen, die sich darauf befinden,
 dauerhaft gesperrt für die Bearbeitung und sind somit unveränderbar.
 
 !!! Info
@@ -62,10 +62,10 @@ dauerhaft gesperrt für die Bearbeitung und sind somit unveränderbar.
     E-Mail-Adresse verschickt. Wenn Sie Fragen zum Gutschritverfahren haben, dann lesen Sie
     sich bitte den [FAQ-Abschnitt im Gutschriftverfahren](/freiberufler/gutschriftverfahren/#faqs) durch.
 
-Wenn Sie am Gutschriftverfahren nicht teilnehmen, dann können Sie für die genehmigten Zeiten, direkt in ZEIT.IO,
-eine Rechnung erstellen. Dafür klicken Sie im Hauptmenü auf "Rechnungen" und dann, bei der Timesheet Vorlage, auf
-"Neue Rechnung erstellen". Dann können Sie das genehmigte Leistungsnachweis auswählen und es wird automatisch
-eine Rechnung dafür erstellt werden.
+Wenn Sie am Gutschriftverfahren nicht teilnehmen, dann können Sie für die genehmigten Zeiten direkt in ZEIT.IO
+eine Rechnung erstellen. Dafür klicken Sie im Hauptmenü auf "Rechnungen", und dann, bei der Timesheet Vorlage auf
+"Neue Rechnung erstellen". Im Anschluss können Sie das genehmigte Leistungsnachweis auswählen und es wird automatisch
+eine Rechnung dafür erstellt.
 
 ## Externen Leistungsnachweis genehmigen lassen
 
